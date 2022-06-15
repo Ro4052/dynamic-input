@@ -1,0 +1,12 @@
+.inputContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.inputContainer * {
+  font-size: 14px;
+}
+
+.inputContainer input {
+  text-align: center;
+}

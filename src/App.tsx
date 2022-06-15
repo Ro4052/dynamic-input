@@ -6,12 +6,8 @@ import styles from './App.module.css';
 export const App = (): JSX.Element => (
   <div className={styles.content}>
     <label>Character unit width</label>
-    <div className={styles.inputContainer}>
-      <CharacterUnitWidthInput />
-    </div>
+    <CharacterUnitWidthInput />
     <label>Calculated width</label>
-    <div className={styles.inputContainer}>
-      <CalculatedWidthInput />
-    </div>
+    <CalculatedWidthInput />
   </div>
 );
