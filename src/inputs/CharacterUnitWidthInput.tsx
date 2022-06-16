@@ -1,7 +1,8 @@
 import { ChangeEventHandler, useEffect, useState } from 'react';
 
 import { PLACEHOLDER_TEXT } from './placeholder';
-import styles from './inputs.module.css';
+import logo from './sl-pride-logo.jpg';
+import styles from './common.module.css';
 
 export const CharacterUnitWidthInput = (): JSX.Element => {
   const [value, setValue] = useState('');
@@ -24,6 +25,7 @@ export const CharacterUnitWidthInput = (): JSX.Element => {
         style={{ width: inputWidth }}
         value={value}
       />
+      <img alt='logo' className={styles.logo} src={logo} />
     </div>
   );
 };

@@ -1,4 +1,6 @@
 .inputContainer {
+  display: flex;
+  justify-content: center;
   width: 100%;
   text-align: center;
 }
@@ -8,5 +10,12 @@
 }
 
 .inputContainer input {
+  height: 16px;
   text-align: center;
+}
+
+.logo {
+  height: 22px;
+  width: 22px;
+  margin-left: 3px;
 }
