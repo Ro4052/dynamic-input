@@ -1,8 +1,7 @@
 import { ChangeEventHandler, useEffect, useState } from 'react';
 
-import styles from './CharacterUnitWidthInput.module.css';
-
-const PLACEHOLDER_TEXT = 'Type something...';
+import { PLACEHOLDER_TEXT } from './placeholder';
+import styles from './inputs.module.css';
 
 export const CharacterUnitWidthInput = (): JSX.Element => {
   const [value, setValue] = useState('');

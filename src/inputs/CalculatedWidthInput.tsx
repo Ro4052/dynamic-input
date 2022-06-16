@@ -1,7 +1,7 @@
 import { ChangeEventHandler, useEffect, useRef, useState } from 'react';
-import styles from './CalculatedWidthInput.module.css';
 
-const PLACEHOLDER_TEXT = 'Type something...';
+import { PLACEHOLDER_TEXT } from './placeholder';
+import styles from './inputs.module.css';
 
 export const CalculatedWidthInput = (): JSX.Element => {
   const [value, setValue] = useState('');
@@ -31,7 +31,7 @@ export const CalculatedWidthInput = (): JSX.Element => {
       <input
         className={styles.input}
         onChange={onChange}
-        placeholder='Type something...'
+        placeholder={PLACEHOLDER_TEXT}
         style={{ width: inputWidth }}
         value={value}
       />

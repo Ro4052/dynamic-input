@@ -1,6 +1,5 @@
-import { CharacterUnitWidthInput } from './CharacterUnitWidthInput/CharacterUnitWidthInput';
-import { CalculatedWidthInput } from './CalculatedWidthInput/CalculatedWidthInput';
-
+import { CharacterUnitWidthInput } from './inputs/CharacterUnitWidthInput';
+import { CalculatedWidthInput } from './inputs/CalculatedWidthInput';
 import styles from './App.module.css';
 
 export const App = (): JSX.Element => (
