@@ -1,4 +1,4 @@
-import { ChangeEventHandler, useEffect, useRef, useState } from 'react';
+import { ChangeEventHandler, useLayoutEffect, useRef, useState } from 'react';
 
 import { PLACEHOLDER_TEXT } from './placeholder';
 import logo from './sl-pride-logo.jpg';
@@ -13,7 +13,7 @@ export const CalculatedWidthInput = (): JSX.Element => {
     setValue(event.target.value);
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (!containerRef.current) {
       setInputWidth('auto');
       return;
