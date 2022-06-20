@@ -15,6 +15,7 @@
   text-align: center;
   color: white;
   font-size: 26px;
+  white-space: nowrap;
 }
 
 .content label:not(:first-child) {
